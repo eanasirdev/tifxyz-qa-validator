@@ -14,7 +14,7 @@ A lightweight, zero-dependency Python QA tool designed to validate 3D coordinate
 No external libraries or dependencies are required. Runs out-of-the-box with Python 3.7+.
 
 ```bash
-git clone [https://github.com/eanasirdev/tifxyz-qa-validator.git](https://github.com/eanasirdev/tifxyz-qa-validator.git)
+git clone https://github.com/eanasirdev/tifxyz-qa-validator.git
 cd tifxyz-qa-validator
 ```
 
