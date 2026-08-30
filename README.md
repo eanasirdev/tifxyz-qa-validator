@@ -84,4 +84,4 @@ FINAL VERDICT: [PASS]
 
 ## License
 
-[MIT License](https://www.google.com/search?q=LICENSE)
+[MIT License](https://github.com/eanasirdev/tifxyz-qa-validator/blob/main/LICENSE)
