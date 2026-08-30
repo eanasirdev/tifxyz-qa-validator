@@ -1,28 +1,6 @@
 #!/usr/bin/env python3
 """
-check_tifxyz.py - Spatial Mesh and Point Cloud QA/Validation Tool
-
-Description:
-    Validates 3D spatial coordinate files (.tifxyz, .xyz, .obj) for spatial integrity,
-    formatting errors, invalid numerical values (NaN/Inf), and coordinate bounds.
-
-Features:
-    - Verifies file existence and non-zero byte size.
-    - Memory-efficient streaming parser supporting .tifxyz, .xyz, and Wavefront .obj.
-    - Flags text parsing errors, missing values, NaN, and Infinity.
-    - Computes 3D Bounding Box (Min/Max X, Y, Z).
-    - Checks for negative coordinates and values exceeding threshold bounds.
-    - Emits ANSI color-coded terminal reports with explicit status tags.
-    - Returns process exit code 0 on PASS/WARNING and 1 on FAIL.
-
-How to Run:
-    Basic usage:
-        python check_tifxyz.py path/to/data.tifxyz
-
-    Custom threshold and allow negative coordinates:
-        python check_tifxyz.py path/to/mesh.obj --max-coord 500000 --allow-negative
-
-    Help menu:
+     Help menu:
         python check_tifxyz.py --help
 """
 
